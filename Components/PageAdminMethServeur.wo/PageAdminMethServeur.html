@@ -1,0 +1,39 @@
+<webobject name = "ServeurPlanningDefaultPage1">
+	<webobject name = "Form1">
+			<table>
+				<tr>
+					<th>M&eacute;thodes serveur connues</th>
+					<th>&nbsp;</th>
+					<th>Applications d&eacute;clar&eacute;ees dans ZAP (URL commen&ccedil;ant par &quot;http&quot;)</th>
+				</tr>
+				<tr>
+					<td>
+							<webobject name = "BrowserMethServeur"></webobject>
+					</td>
+					<td>
+							<webobject name = "BtnAssocier"></webobject>
+					</td>
+					<td>
+							<webobject name = "BrowserApplication"></webobject>
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<table>
+				<tr>
+					<th>
+						M&eacute;thodes serveur affect&eacute;es
+					</th>
+				</tr>
+				<webobject name = "RepMethServeurAffectee">
+				<tr>
+					<td><webobject name = "StrMethServeurAffecteeMeth"></webobject>
+					</td>
+					<td>&lt;==&gt;</td>
+					<td><webobject name = "StrMethServeurAffecteeAppli"></webobject>
+					</td>
+				</tr>
+				</webobject>
+			</table>
+	</webobject>
+</webobject>

@@ -1,0 +1,34 @@
+adminLogin: CktlAdminLogin {
+    loginResponder = loginResponder;
+}
+
+defaultPage: CktlDefaultPage {
+	pageTitle = "ServeurPlanning";
+}
+
+imgClefs: WOImage {
+    src = application.imageClefsSrc;
+}
+
+imgLigneJaune: WOImage {
+  border = "0";
+  width = "100%";
+  height = "6";
+  src = application.imageLigneSrc;
+}
+
+imgLogo: WOImage {
+  border = "0";
+  alt = "Logo Universite";
+  src = application.mainLogoURL;
+}
+
+mailAdmin: CktlMailTo {
+  mail = application.contactMail;
+        mailLabel = "adressez-vous &agrave; l'administrateur en cliquant sur ce lien";
+}
+
+strCopyright: WOString {
+  escapeHTML = false;
+  value = spApp.appCktlVersion.htmlVersion;
+}
